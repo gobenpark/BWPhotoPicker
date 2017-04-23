@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BWPhotoPicker_Example' do
+  pod 'BWPhotoPicker', :path => '../'
+
+  target 'BWPhotoPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
