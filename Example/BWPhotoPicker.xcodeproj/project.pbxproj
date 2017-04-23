@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		19B79D23083055997808FE81 /* Pods_BWPhotoPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A347E6EBE370756D88BB4AA6 /* Pods_BWPhotoPicker_Example.framework */; };
 		22D4141668714466F74816A5 /* Pods_BWPhotoPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C371DAFD353B9637237E649 /* Pods_BWPhotoPicker_Tests.framework */; };
+		44B16B411EACDFB900984C8D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B16B401EACDFB900984C8D /* PhotoViewController.swift */; };
+		44B16B431EACDFBE00984C8D /* AssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B16B421EACDFBE00984C8D /* AssetViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		07FAD826BAC65B2338CB466C /* Pods-BWPhotoPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhotoPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhotoPicker_Example/Pods-BWPhotoPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		252BBF00550CF8532D799DB7 /* BWPhotoPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BWPhotoPicker.podspec; path = ../BWPhotoPicker.podspec; sourceTree = "<group>"; };
+		44B16B401EACDFB900984C8D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		44B16B421EACDFBE00984C8D /* AssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BWPhotoPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhotoPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +100,9 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				44B16B401EACDFB900984C8D /* PhotoViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				44B16B421EACDFBE00984C8D /* AssetViewController.swift */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -220,6 +226,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GHQ6X3NQRK;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -364,6 +371,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				44B16B411EACDFB900984C8D /* PhotoViewController.swift in Sources */,
+				44B16B431EACDFBE00984C8D /* AssetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED58ED7A5255508675B99047 /* Pods-BWPhotoPicker_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GHQ6X3NQRK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -546,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E397FCFB5CCF5D78F3FF53E0 /* Pods-BWPhotoPicker_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GHQ6X3NQRK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

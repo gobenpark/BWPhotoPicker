@@ -1,8 +1,10 @@
 PODS:
   - BWPhotoPicker (0.1.0)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - BWPhotoPicker (from `../`)
+  - SnapKit
 
 EXTERNAL SOURCES:
   BWPhotoPicker:
@@ -10,7 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BWPhotoPicker: deafdb7ff82aa1c998a0efcd004c6b463e8981f9
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 6ad3c502c02e344fe5316b3cd3328716dd720ed1
+PODFILE CHECKSUM: 42954f5e8207a194fc32999ce70f67a7813a0a20
 
 COCOAPODS: 1.2.1.rc.1

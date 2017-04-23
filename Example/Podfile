@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'BWPhotoPicker_Example' do
   pod 'BWPhotoPicker', :path => '../'
-
+  pod 'SnapKit'
   target 'BWPhotoPicker_Tests' do
     inherit! :search_paths
 
