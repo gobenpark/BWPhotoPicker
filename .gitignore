@@ -20,6 +20,7 @@ DerivedData
 *.ipa
 *.sh
 Pods/
+.bundle/
 # Bundler
 .bundle
 
