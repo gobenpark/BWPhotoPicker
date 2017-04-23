@@ -10,8 +10,8 @@ import UIKit
 import Photos
 import PhotosUI
 
-import ALCameraViewController
 
+@available(iOS 9.1, *)
 class AssetViewController: UIViewController{
     
     var asset: PHAsset!

@@ -45,30 +45,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    func movecamera(){
-        let croppingEnabled = true
-        let cameraViewController = CameraViewController(croppingEnabled: croppingEnabled) { [weak self] image, asset in
-            // Do something with your image here.
-            // If cropping is enabled this image will be the cropped version
-            
-            self?.dismiss(animated: true, completion: nil)
-        }
-        
-        present(cameraViewController, animated: true, completion: nil)
-    }
-    func movePhoto2(){
-        let croppingEnabled = true
-        
-        /// Provides an image picker wrapped inside a UINavigationController instance
-        let imagePickerViewController = CameraViewController.imagePickerViewController(croppingEnabled: croppingEnabled) { [weak self] image, asset in
-            self?.imgView.image = image
-            
-            self?.dismiss(animated: true, completion: nil)
-        }
-        
-        present(imagePickerViewController, animated: true, completion: nil)
-    }
-    
+       
     func movePhoto(){
         self.navigationController?.pushViewController(PhotoViewController(), animated: true)
     }
