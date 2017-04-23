@@ -1,0 +1,6 @@
+framework module Pods_BWPhotoPicker_Tests {
+  umbrella header "Pods-BWPhotoPicker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
